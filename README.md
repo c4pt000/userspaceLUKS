@@ -1,3 +1,12 @@
+
+
+autoreconf --install
+<br>
+autoconf
+<br>
+./configure                 (--prefix=/usr optional per build install location)
+
+
 # userspaceLUKS
 A fully userspace, partial implementation of LUKS.
 
