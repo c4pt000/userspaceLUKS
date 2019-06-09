@@ -1,5 +1,5 @@
 
-
+brew cask install osxfuse
 autoreconf --install
 <br>
 autoconf
