@@ -9,6 +9,15 @@ to mount via fuse, ext4 or paragon, as before
 http://dl.paragon-software.com/demo/trial_extfs.dmg
 <br>
 
+<br>
+ * brew install autoconf
+ * brew install automake
+ * brew install autogen
+ <br>
+ 
+ 
+
+
 autoreconf --install
 <br>
 autoconf
