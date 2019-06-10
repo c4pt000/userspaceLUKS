@@ -20,6 +20,10 @@ http://dl.paragon-software.com/demo/trial_extfs.dmg
  * brew install ext4fuse
  * brew install openssl
  
+ /usr/local/opt/openssl/bin/openssl 
+OpenSSL> version
+OpenSSL 1.0.2r  26 Feb 2019
+ 
 ```
 export LDFLAGS="-L/usr/local/opt/openssl/lib"
 export CPPFLAGS="-I/usr/local/opt/openssl/include"
