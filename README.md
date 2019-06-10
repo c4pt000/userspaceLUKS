@@ -29,6 +29,10 @@ autoconf
 cd lib/crypto_backend && make && cd .. && make && cd .. && make
 ./luks_unlock 
 ./luks_unlock: device [output]
+
+./luks_stats
+./luks_stats: device [output]
+
 ```
 <br>
 <br>
