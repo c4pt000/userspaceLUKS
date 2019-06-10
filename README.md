@@ -29,3 +29,9 @@ autoreconf --install
 autoconf
 <br>
 ./configure
+<br>
+cd lib/crypto_backend && make && cd .. && make && cd .. && make
+<br>
+./luks_unlock 
+<br>
+./luks_unlock: device [output]
