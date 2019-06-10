@@ -17,6 +17,7 @@ http://dl.paragon-software.com/demo/trial_extfs.dmg
  * brew install automake
  * brew install autogen
  * brew cask install osxfuse
+ * brew install ext4fuse
  * brew install openssl
  
 ```
