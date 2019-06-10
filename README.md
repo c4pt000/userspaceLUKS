@@ -10,11 +10,11 @@ http://dl.paragon-software.com/demo/trial_extfs.dmg
 <br>
 
 <br>
-* brew install autoconf
+#* brew install autoconf
 <br>
-* brew install automake
+#* brew install automake
 <br>
-* brew install autogen
+#* brew install autogen
 <br>
  
  
