@@ -18,6 +18,9 @@ http://dl.paragon-software.com/demo/trial_extfs.dmg
  * brew install autogen
  * brew install openssl
  
+ * export LDFLAGS="-L/usr/local/opt/openssl/lib"
+ * export CPPFLAGS="-I/usr/local/opt/openssl/include"
+ * export PKG_CONFIG_PATH="/usr/local/opt/openssl/lib/pkgconfig"
 
 
 autoreconf --install
