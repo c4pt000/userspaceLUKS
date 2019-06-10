@@ -41,11 +41,11 @@ cd lib/crypto_backend && make && cd .. && make && cd .. && make
 <br>
 <br>
 e.g.
-```
+
+
 ./luks_unlock /dev/disk4s1
 Enter passphrase: 
 Master key unlocked!
-```
 
 ```
 ./luks_stats /dev/disk5s1
