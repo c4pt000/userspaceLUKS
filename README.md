@@ -4,7 +4,7 @@ FUSE support for LUKS filesystems
 <br>
 in theory to unlock LUKS volume from unlock-luks.c from "userspaceLUKS" project
 <br>
-to mount via fuse, ext4 or paragon, as before
+to mount via fuse, ext4 or paragon, as before ,,, and most importantly *to UNLOCK* LUKS encrypted volumes
 <br>
 http://dl.paragon-software.com/demo/trial_extfs.dmg
 <br>
