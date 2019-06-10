@@ -44,8 +44,11 @@ e.g.
 
 
 ./luks_unlock /dev/disk4s1
+<br>
 Enter passphrase: 
+<br>
 Master key unlocked!
+<br>
 
 ```
 ./luks_stats /dev/disk5s1
