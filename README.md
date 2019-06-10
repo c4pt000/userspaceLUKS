@@ -35,3 +35,14 @@ cd lib/crypto_backend && make && cd .. && make && cd .. && make
 ./luks_unlock 
 <br>
 ./luks_unlock: device [output]
+<br>
+
+e.g.
+<br>
+./luks_unlock /dev/disk4s1
+<br>
+Enter passphrase: 
+<br>
+Master key unlocked!
+
+
