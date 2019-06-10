@@ -16,7 +16,7 @@ http://dl.paragon-software.com/demo/trial_extfs.dmg
  * brew install autoconf
  * brew install automake
  * brew install autogen
- 
+ * brew install openssl
  
 
 
