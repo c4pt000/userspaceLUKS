@@ -20,25 +20,15 @@ http://dl.paragon-software.com/demo/trial_extfs.dmg
  * brew install openssl
  
 ```
-<br>
 export LDFLAGS="-L/usr/local/opt/openssl/lib"
-<br>
 export CPPFLAGS="-I/usr/local/opt/openssl/include"
-<br>
 export PKG_CONFIG_PATH="/usr/local/opt/openssl/lib/pkgconfig"
-<br>
 autoreconf --install
-<br>
 autoconf
-<br>
 ./configure
-<br>
 cd lib/crypto_backend && make && cd .. && make && cd .. && make
-<br>
 ./luks_unlock 
-<br>
 ./luks_unlock: device [output]
-<br>
 ```
 e.g.
 <br>
