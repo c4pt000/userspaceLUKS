@@ -19,7 +19,7 @@ http://dl.paragon-software.com/demo/trial_extfs.dmg
  * brew cask install osxfuse
  * brew install openssl
  
- 
+```
 <br>
 export LDFLAGS="-L/usr/local/opt/openssl/lib"
 <br>
@@ -39,7 +39,7 @@ cd lib/crypto_backend && make && cd .. && make && cd .. && make
 <br>
 ./luks_unlock: device [output]
 <br>
-
+```
 e.g.
 <br>
 ./luks_unlock /dev/disk4s1
