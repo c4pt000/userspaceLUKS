@@ -43,7 +43,7 @@ cd lib/crypto_backend && make && cd .. && make && cd .. && make
 e.g.
 
 
-./luks_unlock /dev/disk4s1
+./luks_unlock /dev/disk5s1
 <br>
 Enter passphrase: 
 <br>
