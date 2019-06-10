@@ -19,11 +19,14 @@ http://dl.paragon-software.com/demo/trial_extfs.dmg
  * brew cask install osxfuse
  * brew install openssl
  
- * export LDFLAGS="-L/usr/local/opt/openssl/lib"
- * export CPPFLAGS="-I/usr/local/opt/openssl/include"
- * export PKG_CONFIG_PATH="/usr/local/opt/openssl/lib/pkgconfig"
-
-
+ 
+<br>
+export LDFLAGS="-L/usr/local/opt/openssl/lib"
+<br>
+export CPPFLAGS="-I/usr/local/opt/openssl/include"
+<br>
+export PKG_CONFIG_PATH="/usr/local/opt/openssl/lib/pkgconfig"
+<br>
 autoreconf --install
 <br>
 autoconf
